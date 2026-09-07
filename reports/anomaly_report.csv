@@ -1,0 +1,401 @@
+vehicle_id,timestamp,parameter,value,anomaly_type,severity
+VEH0003,2023-01-01 13:18:00,engine_temp_c,117.67521390154003,Engine Overheating,HIGH
+VEH0004,2023-01-01 03:20:00,engine_temp_c,118.27091373648278,Engine Overheating,HIGH
+VEH0005,2023-01-02 01:51:00,engine_temp_c,127.98457559081928,Engine Overheating,HIGH
+VEH0006,2023-01-01 08:38:00,engine_temp_c,111.21899466071588,Engine Overheating,HIGH
+VEH0007,2023-01-01 04:10:00,engine_temp_c,124.89508480871407,Engine Overheating,HIGH
+VEH0011,2023-01-01 05:06:00,engine_temp_c,119.51526149750056,Engine Overheating,HIGH
+VEH0014,2023-01-01 10:12:00,engine_temp_c,118.58592470520097,Engine Overheating,HIGH
+VEH0017,2023-01-01 09:30:00,engine_temp_c,111.7185636524671,Engine Overheating,HIGH
+VEH0018,2023-01-01 02:36:00,engine_temp_c,129.45861344477208,Engine Overheating,HIGH
+VEH0019,2023-01-01 20:32:00,engine_temp_c,132.71403827080957,Engine Overheating,HIGH
+VEH0020,2023-01-01 10:24:00,engine_temp_c,121.39759153335528,Engine Overheating,HIGH
+VEH0022,2023-01-01 11:54:00,engine_temp_c,116.25444342828918,Engine Overheating,HIGH
+VEH0023,2023-01-01 21:00:00,engine_temp_c,110.31497767954552,Engine Overheating,HIGH
+VEH0025,2023-01-01 01:06:00,engine_temp_c,127.09603523687927,Engine Overheating,HIGH
+VEH0026,2023-01-01 10:48:00,engine_temp_c,131.30975531160271,Engine Overheating,HIGH
+VEH0030,2023-01-01 00:20:00,engine_temp_c,126.9331578399418,Engine Overheating,HIGH
+VEH0031,2023-01-01 07:30:00,engine_temp_c,119.3224707208603,Engine Overheating,HIGH
+VEH0033,2023-01-01 17:38:00,engine_temp_c,127.17595920360787,Engine Overheating,HIGH
+VEH0035,2023-01-01 06:58:00,engine_temp_c,115.67299446798052,Engine Overheating,HIGH
+VEH0037,2023-01-01 22:49:00,engine_temp_c,117.822192966653,Engine Overheating,HIGH
+VEH0040,2023-01-01 08:00:00,engine_temp_c,115.50279451512628,Engine Overheating,HIGH
+VEH0042,2023-01-01 02:06:00,engine_temp_c,110.13604061626016,Engine Overheating,HIGH
+VEH0048,2023-01-02 07:30:00,engine_temp_c,124.60252458028418,Engine Overheating,HIGH
+VEH0049,2023-01-01 23:26:00,engine_temp_c,131.31331081629267,Engine Overheating,HIGH
+VEH0049,2023-01-01 18:12:00,engine_temp_c,115.33018643326452,Engine Overheating,HIGH
+VEH0003,2023-01-01 13:18:00,engine_rpm,7569.073037369791,Excessive Engine RPM,HIGH
+VEH0004,2023-01-01 03:20:00,engine_rpm,7672.768471262451,Excessive Engine RPM,HIGH
+VEH0005,2023-01-02 01:51:00,engine_rpm,7041.748073269771,Excessive Engine RPM,HIGH
+VEH0007,2023-01-01 04:10:00,engine_rpm,6873.909722167396,Excessive Engine RPM,HIGH
+VEH0011,2023-01-01 05:06:00,engine_rpm,6040.560629789162,Excessive Engine RPM,HIGH
+VEH0014,2023-01-01 10:12:00,engine_rpm,6415.541258879457,Excessive Engine RPM,HIGH
+VEH0018,2023-01-01 02:36:00,engine_rpm,7027.407731245111,Excessive Engine RPM,HIGH
+VEH0019,2023-01-01 20:32:00,engine_rpm,6186.595710953488,Excessive Engine RPM,HIGH
+VEH0020,2023-01-01 10:24:00,engine_rpm,7620.728799518874,Excessive Engine RPM,HIGH
+VEH0022,2023-01-01 11:54:00,engine_rpm,7795.057244753729,Excessive Engine RPM,HIGH
+VEH0025,2023-01-01 01:06:00,engine_rpm,6255.136302728569,Excessive Engine RPM,HIGH
+VEH0026,2023-01-01 10:48:00,engine_rpm,6894.321009061328,Excessive Engine RPM,HIGH
+VEH0030,2023-01-01 00:20:00,engine_rpm,7593.696353544246,Excessive Engine RPM,HIGH
+VEH0033,2023-01-01 17:38:00,engine_rpm,7396.545187061093,Excessive Engine RPM,HIGH
+VEH0035,2023-01-01 06:58:00,engine_rpm,7660.385126139143,Excessive Engine RPM,HIGH
+VEH0037,2023-01-01 22:49:00,engine_rpm,7912.265712684738,Excessive Engine RPM,HIGH
+VEH0040,2023-01-01 08:00:00,engine_rpm,6958.831597254204,Excessive Engine RPM,HIGH
+VEH0048,2023-01-02 07:30:00,engine_rpm,7806.602254777519,Excessive Engine RPM,HIGH
+VEH0049,2023-01-01 23:26:00,engine_rpm,7344.55765894816,Excessive Engine RPM,HIGH
+VEH0003,2023-01-01 13:18:00,coolant_temp_c,129.71845317940034,High Coolant Temperature,HIGH
+VEH0004,2023-01-01 03:20:00,coolant_temp_c,128.91569292481913,High Coolant Temperature,HIGH
+VEH0005,2023-01-02 01:51:00,coolant_temp_c,127.20506572799408,High Coolant Temperature,HIGH
+VEH0007,2023-01-01 04:10:00,coolant_temp_c,122.32921756457594,High Coolant Temperature,HIGH
+VEH0011,2023-01-01 05:06:00,coolant_temp_c,111.18446610793217,High Coolant Temperature,HIGH
+VEH0014,2023-01-01 10:12:00,coolant_temp_c,113.43747405078494,High Coolant Temperature,HIGH
+VEH0018,2023-01-01 02:36:00,coolant_temp_c,113.69302491787396,High Coolant Temperature,HIGH
+VEH0019,2023-01-01 20:32:00,coolant_temp_c,122.7991277022914,High Coolant Temperature,HIGH
+VEH0020,2023-01-01 10:24:00,coolant_temp_c,114.80525168997865,High Coolant Temperature,HIGH
+VEH0022,2023-01-01 11:54:00,coolant_temp_c,125.16605234421036,High Coolant Temperature,HIGH
+VEH0025,2023-01-01 01:06:00,coolant_temp_c,121.72416332381016,High Coolant Temperature,HIGH
+VEH0026,2023-01-01 10:48:00,coolant_temp_c,125.87264828511162,High Coolant Temperature,HIGH
+VEH0030,2023-01-01 00:20:00,coolant_temp_c,112.49394894247206,High Coolant Temperature,HIGH
+VEH0033,2023-01-01 17:38:00,coolant_temp_c,111.57324116628516,High Coolant Temperature,HIGH
+VEH0035,2023-01-01 06:58:00,coolant_temp_c,128.5971700100112,High Coolant Temperature,HIGH
+VEH0037,2023-01-01 22:49:00,coolant_temp_c,117.62830687566714,High Coolant Temperature,HIGH
+VEH0040,2023-01-01 08:00:00,coolant_temp_c,112.1079386965828,High Coolant Temperature,HIGH
+VEH0048,2023-01-02 07:30:00,coolant_temp_c,125.28511348048282,High Coolant Temperature,HIGH
+VEH0049,2023-01-01 23:26:00,coolant_temp_c,129.8630820718032,High Coolant Temperature,HIGH
+VEH0005,2023-01-01 06:18:00,battery_voltage_v,11.424393541144632,Low Battery Voltage,HIGH
+VEH0006,2023-01-01 00:37:00,battery_voltage_v,11.346890842475169,Low Battery Voltage,HIGH
+VEH0006,2023-01-01 02:57:00,battery_voltage_v,10.016203260284614,Low Battery Voltage,HIGH
+VEH0006,2023-01-01 05:20:00,battery_voltage_v,10.090029258121644,Low Battery Voltage,HIGH
+VEH0006,2023-01-01 16:28:00,battery_voltage_v,11.45594320392107,Low Battery Voltage,HIGH
+VEH0007,2023-01-01 03:36:00,battery_voltage_v,10.615253803668612,Low Battery Voltage,HIGH
+VEH0007,2023-01-01 22:52:00,battery_voltage_v,11.4327994745628,Low Battery Voltage,HIGH
+VEH0009,2023-01-02 08:41:00,battery_voltage_v,10.328027258443475,Low Battery Voltage,HIGH
+VEH0010,2023-01-01 05:57:00,battery_voltage_v,11.49193667353506,Low Battery Voltage,HIGH
+VEH0010,2023-01-01 18:05:00,battery_voltage_v,9.944045108950906,Low Battery Voltage,HIGH
+VEH0010,2023-01-01 19:07:00,battery_voltage_v,10.140357980954455,Low Battery Voltage,HIGH
+VEH0011,2023-01-01 08:26:00,battery_voltage_v,11.468971568641551,Low Battery Voltage,HIGH
+VEH0013,2023-01-01 05:45:00,battery_voltage_v,10.157983072025562,Low Battery Voltage,HIGH
+VEH0015,2023-01-01 04:19:00,battery_voltage_v,10.222627179701142,Low Battery Voltage,HIGH
+VEH0015,2023-01-01 07:15:00,battery_voltage_v,10.175873739224176,Low Battery Voltage,HIGH
+VEH0016,2023-01-01 08:48:00,battery_voltage_v,9.854863413200365,Low Battery Voltage,HIGH
+VEH0016,2023-01-01 07:48:00,battery_voltage_v,11.469990152603827,Low Battery Voltage,HIGH
+VEH0017,2023-01-01 09:30:00,battery_voltage_v,10.268081306003564,Low Battery Voltage,HIGH
+VEH0019,2023-01-01 02:13:00,battery_voltage_v,11.22374530305649,Low Battery Voltage,HIGH
+VEH0021,2023-01-01 04:30:00,battery_voltage_v,11.43570126413363,Low Battery Voltage,HIGH
+VEH0022,2023-01-01 00:26:00,battery_voltage_v,10.769826163729794,Low Battery Voltage,HIGH
+VEH0022,2023-01-01 09:21:00,battery_voltage_v,9.947063784187034,Low Battery Voltage,HIGH
+VEH0022,2023-01-01 09:18:00,battery_voltage_v,10.950819810212405,Low Battery Voltage,HIGH
+VEH0023,2023-01-01 03:48:00,battery_voltage_v,9.822507152405043,Low Battery Voltage,HIGH
+VEH0023,2023-01-01 03:24:00,battery_voltage_v,10.671099095043004,Low Battery Voltage,HIGH
+VEH0024,2023-01-01 20:48:00,battery_voltage_v,10.297982477406173,Low Battery Voltage,HIGH
+VEH0026,2023-01-01 05:48:00,battery_voltage_v,11.463572703484678,Low Battery Voltage,HIGH
+VEH0026,2023-01-01 09:45:00,battery_voltage_v,10.700081611927056,Low Battery Voltage,HIGH
+VEH0026,2023-01-01 16:20:00,battery_voltage_v,9.065081740117396,Low Battery Voltage,HIGH
+VEH0027,2023-01-01 18:33:00,battery_voltage_v,10.713551825360511,Low Battery Voltage,HIGH
+VEH0028,2023-01-01 04:50:00,battery_voltage_v,11.04492015336693,Low Battery Voltage,HIGH
+VEH0028,2023-01-02 00:10:00,battery_voltage_v,10.46988853881152,Low Battery Voltage,HIGH
+VEH0028,2023-01-01 21:32:00,battery_voltage_v,11.263217712799356,Low Battery Voltage,HIGH
+VEH0029,2023-01-01 04:54:00,battery_voltage_v,11.190281481308666,Low Battery Voltage,HIGH
+VEH0031,2023-01-01 01:10:00,battery_voltage_v,10.556554032958609,Low Battery Voltage,HIGH
+VEH0032,2023-01-01 01:10:00,battery_voltage_v,11.20707210402688,Low Battery Voltage,HIGH
+VEH0032,2023-01-01 02:33:00,battery_voltage_v,11.256198708316807,Low Battery Voltage,HIGH
+VEH0032,2023-01-01 02:30:00,battery_voltage_v,10.573453325836644,Low Battery Voltage,HIGH
+VEH0033,2023-01-01 05:12:00,battery_voltage_v,9.846412496898116,Low Battery Voltage,HIGH
+VEH0035,2023-01-01 08:24:00,battery_voltage_v,9.661014812304796,Low Battery Voltage,HIGH
+VEH0035,2023-01-01 06:32:00,battery_voltage_v,11.36216864870434,Low Battery Voltage,HIGH
+VEH0039,2023-01-01 13:39:00,battery_voltage_v,11.286191721349518,Low Battery Voltage,HIGH
+VEH0040,2023-01-01 05:48:00,battery_voltage_v,10.75335606494684,Low Battery Voltage,HIGH
+VEH0041,2023-01-01 15:44:00,battery_voltage_v,11.296121529221269,Low Battery Voltage,HIGH
+VEH0042,2023-01-01 01:45:00,battery_voltage_v,9.92828760757301,Low Battery Voltage,HIGH
+VEH0042,2023-01-01 13:56:00,battery_voltage_v,11.476789751496312,Low Battery Voltage,HIGH
+VEH0043,2023-01-01 09:21:00,battery_voltage_v,11.443196868837916,Low Battery Voltage,HIGH
+VEH0043,2023-01-01 07:17:00,battery_voltage_v,9.867297907449757,Low Battery Voltage,HIGH
+VEH0045,2023-01-01 08:00:00,battery_voltage_v,11.266043860961457,Low Battery Voltage,HIGH
+VEH0046,2023-01-01 10:12:00,battery_voltage_v,10.074652150385877,Low Battery Voltage,HIGH
+VEH0047,2023-01-02 04:03:00,battery_voltage_v,9.439753084428464,Low Battery Voltage,HIGH
+VEH0048,2023-01-01 01:54:00,battery_voltage_v,10.951294014938767,Low Battery Voltage,HIGH
+VEH0048,2023-01-01 16:15:00,battery_voltage_v,11.455433041206254,Low Battery Voltage,HIGH
+VEH0048,2023-01-01 18:38:00,battery_voltage_v,11.221632480179224,Low Battery Voltage,HIGH
+VEH0048,2023-01-02 07:30:00,battery_voltage_v,11.472710079726,Low Battery Voltage,HIGH
+VEH0000,2023-01-01 02:06:00,vehicle_speed_kph,240.27911701313468,Excessive Vehicle Speed,HIGH
+VEH0001,2023-01-01 08:45:00,vehicle_speed_kph,214.04980845182504,Excessive Vehicle Speed,HIGH
+VEH0009,2023-01-01 01:16:00,vehicle_speed_kph,227.59110117630223,Excessive Vehicle Speed,HIGH
+VEH0009,2023-01-01 08:53:00,vehicle_speed_kph,241.69274226254663,Excessive Vehicle Speed,HIGH
+VEH0012,2023-01-01 07:00:00,vehicle_speed_kph,217.17021908200732,Excessive Vehicle Speed,HIGH
+VEH0016,2023-01-01 03:09:00,vehicle_speed_kph,222.9185381619092,Excessive Vehicle Speed,HIGH
+VEH0017,2023-01-01 12:24:00,vehicle_speed_kph,227.8075093082081,Excessive Vehicle Speed,HIGH
+VEH0018,2023-01-01 19:35:00,vehicle_speed_kph,189.4119928536945,Excessive Vehicle Speed,HIGH
+VEH0018,2023-01-01 21:30:00,vehicle_speed_kph,224.6173595261309,Excessive Vehicle Speed,HIGH
+VEH0019,2023-01-01 10:12:00,vehicle_speed_kph,195.2410323972917,Excessive Vehicle Speed,HIGH
+VEH0019,2023-01-01 02:13:00,vehicle_speed_kph,209.83060839155067,Excessive Vehicle Speed,HIGH
+VEH0023,2023-01-01 00:29:00,vehicle_speed_kph,187.0622161474101,Excessive Vehicle Speed,HIGH
+VEH0024,2023-01-01 11:36:00,vehicle_speed_kph,197.9719120939085,Excessive Vehicle Speed,HIGH
+VEH0029,2023-01-01 01:52:00,vehicle_speed_kph,200.2583591493089,Excessive Vehicle Speed,HIGH
+VEH0030,2023-01-01 11:48:00,vehicle_speed_kph,221.0211464234808,Excessive Vehicle Speed,HIGH
+VEH0033,2023-01-01 08:15:00,vehicle_speed_kph,226.37009813949464,Excessive Vehicle Speed,HIGH
+VEH0034,2023-01-01 06:46:00,vehicle_speed_kph,246.20910863439005,Excessive Vehicle Speed,HIGH
+VEH0043,2023-01-01 09:21:00,vehicle_speed_kph,222.3899191725751,Excessive Vehicle Speed,HIGH
+VEH0047,2023-01-01 23:30:00,vehicle_speed_kph,225.0051845712532,Excessive Vehicle Speed,HIGH
+VEH0001,2023-01-01 02:15:00,brake_temp_c,362.643828265612,High Brake Temperature,HIGH
+VEH0002,2023-01-01 07:31:00,brake_temp_c,467.9150969911507,High Brake Temperature,HIGH
+VEH0003,2023-01-01 00:00:00,brake_temp_c,471.8444083135221,High Brake Temperature,HIGH
+VEH0005,2023-01-01 00:00:00,brake_temp_c,359.2778130342804,High Brake Temperature,HIGH
+VEH0009,2023-01-01 06:32:00,brake_temp_c,367.4604276748619,High Brake Temperature,HIGH
+VEH0009,2023-01-01 09:04:00,brake_temp_c,399.3553595147635,High Brake Temperature,HIGH
+VEH0011,2023-01-01 04:24:00,brake_temp_c,407.348924684036,High Brake Temperature,HIGH
+VEH0016,2023-01-01 08:32:00,brake_temp_c,380.6683072129096,High Brake Temperature,HIGH
+VEH0019,2023-01-01 18:12:00,brake_temp_c,443.0047411517352,High Brake Temperature,HIGH
+VEH0019,2023-01-02 06:20:00,brake_temp_c,373.9944376201481,High Brake Temperature,HIGH
+VEH0020,2023-01-01 09:36:00,brake_temp_c,460.9286651400837,High Brake Temperature,HIGH
+VEH0024,2023-01-01 04:12:00,brake_temp_c,350.067913040858,High Brake Temperature,HIGH
+VEH0026,2023-01-01 03:36:00,brake_temp_c,361.8902048394617,High Brake Temperature,HIGH
+VEH0026,2023-01-01 02:30:00,brake_temp_c,368.2326141096366,High Brake Temperature,HIGH
+VEH0029,2023-01-01 23:30:00,brake_temp_c,404.681295513333,High Brake Temperature,HIGH
+VEH0031,2023-01-01 04:39:00,brake_temp_c,417.0479435212127,High Brake Temperature,HIGH
+VEH0035,2023-01-01 06:18:00,brake_temp_c,352.1342335593749,High Brake Temperature,HIGH
+VEH0035,2023-01-02 06:29:00,brake_temp_c,356.11859811735553,High Brake Temperature,HIGH
+VEH0036,2023-01-02 10:25:00,brake_temp_c,387.6485348441271,High Brake Temperature,HIGH
+VEH0043,2023-01-01 02:48:00,brake_temp_c,372.1029149025108,High Brake Temperature,HIGH
+VEH0043,2023-01-01 07:09:00,brake_temp_c,415.031768473604,High Brake Temperature,HIGH
+VEH0044,2023-01-01 10:40:00,brake_temp_c,374.30336245466594,High Brake Temperature,HIGH
+VEH0046,2023-01-01 00:27:00,brake_temp_c,388.3977430686168,High Brake Temperature,HIGH
+VEH0046,2023-01-01 18:27:00,brake_temp_c,467.3135021935415,High Brake Temperature,HIGH
+VEH0049,2023-01-01 00:00:00,brake_temp_c,367.2196435517237,High Brake Temperature,HIGH
+VEH0049,2023-01-01 14:24:00,brake_temp_c,449.0971833707852,High Brake Temperature,HIGH
+VEH0000,2023-01-01 01:12:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0000,2023-01-01 22:03:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0000,2023-01-02 09:26:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0001,2023-01-01 04:39:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0001,2023-01-01 02:15:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0001,2023-01-01 10:40:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0001,2023-01-01 12:24:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0001,2023-01-01 10:09:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0001,2023-01-02 02:21:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0001,2023-01-02 04:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0001,2023-01-02 04:30:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0002,2023-01-01 04:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0002,2023-01-01 07:31:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0002,2023-01-01 11:30:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0002,2023-01-01 16:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0003,2023-01-01 00:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0003,2023-01-01 06:20:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0003,2023-01-01 07:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0003,2023-01-02 02:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0004,2023-01-01 00:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0004,2023-01-01 03:10:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0004,2023-01-01 08:20:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0004,2023-01-01 13:34:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0004,2023-01-01 16:29:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0004,2023-01-01 16:28:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0004,2023-01-01 17:16:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0004,2023-01-01 17:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0005,2023-01-01 05:30:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0005,2023-01-01 02:30:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0006,2023-01-01 07:09:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0006,2023-01-01 02:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0006,2023-01-01 16:28:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0006,2023-01-01 14:18:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0006,2023-01-02 08:40:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0007,2023-01-01 00:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0007,2023-01-01 01:10:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0007,2023-01-01 02:30:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0007,2023-01-01 14:44:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0007,2023-01-01 08:32:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0008,2023-01-01 00:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0008,2023-01-01 13:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0008,2023-01-01 19:07:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0009,2023-01-01 04:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0009,2023-01-01 06:32:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0009,2023-01-01 17:06:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0009,2023-01-02 05:20:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0010,2023-01-01 00:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0010,2023-01-01 12:39:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0011,2023-01-01 04:24:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0011,2023-01-01 02:33:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0011,2023-01-01 03:12:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0011,2023-01-01 05:52:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0012,2023-01-01 05:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0012,2023-01-01 14:06:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0012,2023-01-01 07:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0012,2023-01-01 06:24:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0012,2023-01-02 02:30:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0012,2023-01-01 06:56:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0013,2023-01-01 04:19:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0013,2023-01-01 07:45:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0014,2023-01-01 06:40:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0014,2023-01-01 02:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0015,2023-01-01 07:30:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0015,2023-01-01 05:52:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0015,2023-01-01 04:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0015,2023-01-01 23:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0016,2023-01-01 00:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0016,2023-01-01 05:44:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0016,2023-01-01 10:16:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0016,2023-01-01 08:32:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0016,2023-01-02 01:12:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0017,2023-01-01 00:18:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0017,2023-01-01 01:25:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0017,2023-01-01 05:04:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0017,2023-01-01 08:24:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0018,2023-01-01 03:30:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0018,2023-01-01 10:46:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0018,2023-01-01 04:12:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0018,2023-01-01 22:24:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0019,2023-01-01 14:56:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0019,2023-01-01 18:12:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0019,2023-01-01 23:41:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0019,2023-01-02 06:20:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0020,2023-01-01 04:03:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0020,2023-01-01 04:40:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0020,2023-01-01 09:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0020,2023-01-01 03:18:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0020,2023-01-01 20:19:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0020,2023-01-01 09:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0020,2023-01-02 03:25:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0020,2023-01-01 17:44:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0020,2023-01-01 08:27:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0021,2023-01-01 09:34:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0022,2023-01-01 01:54:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0022,2023-01-01 10:24:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0022,2023-01-01 16:20:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0022,2023-01-01 10:38:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0022,2023-01-01 04:21:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0023,2023-01-01 00:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0023,2023-01-01 02:27:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0023,2023-01-01 08:15:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0023,2023-01-01 04:24:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0024,2023-01-01 01:33:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0024,2023-01-01 09:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0024,2023-01-01 16:55:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0024,2023-01-01 05:40:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0025,2023-01-01 02:20:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0025,2023-01-01 08:37:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0025,2023-01-01 16:47:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0025,2023-01-01 09:06:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0025,2023-01-02 02:35:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0026,2023-01-01 03:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0026,2023-01-01 05:43:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0026,2023-01-01 05:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0026,2023-01-01 08:38:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0026,2023-01-01 09:45:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0026,2023-01-01 04:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0026,2023-01-01 02:24:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0026,2023-01-01 03:04:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0026,2023-01-01 02:30:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0026,2023-01-01 09:32:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0026,2023-01-01 05:08:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0026,2023-01-01 04:19:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0027,2023-01-01 01:34:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0027,2023-01-01 02:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0027,2023-01-01 05:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0027,2023-01-01 04:12:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0028,2023-01-01 03:16:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0028,2023-01-01 08:15:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0028,2023-01-01 08:13:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0028,2023-01-01 10:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0028,2023-01-01 21:52:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0028,2023-01-01 03:51:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0028,2023-01-01 21:32:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0029,2023-01-01 03:28:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0029,2023-01-01 06:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0029,2023-01-01 04:10:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0029,2023-01-01 23:30:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0030,2023-01-01 00:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0030,2023-01-01 07:56:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0030,2023-01-01 16:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0030,2023-01-01 09:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0030,2023-01-02 09:26:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0030,2023-01-01 11:05:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0031,2023-01-01 04:39:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0031,2023-01-01 03:10:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0031,2023-01-02 04:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0031,2023-01-01 14:24:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0032,2023-01-01 01:10:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0032,2023-01-01 09:52:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0032,2023-01-01 19:20:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0032,2023-01-01 04:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0033,2023-01-02 01:04:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0033,2023-01-01 20:04:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0034,2023-01-01 01:56:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0034,2023-01-01 04:46:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0034,2023-01-01 15:52:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0034,2023-01-02 03:14:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0035,2023-01-01 01:21:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0035,2023-01-01 06:18:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0035,2023-01-01 16:28:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0035,2023-01-01 06:58:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0036,2023-01-01 00:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0036,2023-01-01 03:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0036,2023-01-01 01:40:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0036,2023-01-01 14:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0036,2023-01-01 19:04:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0037,2023-01-01 03:30:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0037,2023-01-01 07:09:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0037,2023-01-01 23:12:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0038,2023-01-01 01:10:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0038,2023-01-01 03:04:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0038,2023-01-01 09:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0038,2023-01-01 01:54:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0038,2023-01-01 12:20:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0039,2023-01-01 12:08:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0039,2023-01-01 05:45:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0039,2023-01-02 00:10:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0039,2023-01-01 03:52:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0039,2023-01-01 11:22:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0039,2023-01-01 21:20:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0039,2023-01-02 03:20:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0039,2023-01-02 02:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0040,2023-01-01 01:15:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0040,2023-01-01 08:00:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0040,2023-01-01 02:05:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0040,2023-01-01 05:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0040,2023-01-01 03:24:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0041,2023-01-01 01:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0041,2023-01-01 03:02:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0042,2023-01-01 01:45:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0042,2023-01-01 05:04:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0043,2023-01-01 02:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0043,2023-01-01 07:57:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0043,2023-01-01 14:44:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0043,2023-01-01 06:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0043,2023-01-02 03:52:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0043,2023-01-01 07:09:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0044,2023-01-01 01:45:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0044,2023-01-01 04:32:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0044,2023-01-01 12:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0044,2023-01-01 15:20:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0044,2023-01-01 12:36:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0044,2023-01-01 10:40:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0044,2023-01-02 00:22:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0045,2023-01-01 01:28:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0045,2023-01-01 02:52:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0045,2023-01-01 12:48:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0045,2023-01-01 18:12:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0045,2023-01-01 16:15:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0045,2023-01-02 04:56:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0045,2023-01-01 12:16:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0046,2023-01-01 00:27:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0046,2023-01-01 03:40:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0046,2023-01-01 04:57:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0046,2023-01-01 07:12:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0046,2023-01-01 10:12:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0046,2023-01-01 08:20:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0046,2023-01-01 22:24:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0046,2023-01-01 03:30:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0046,2023-01-02 04:35:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0046,2023-01-01 08:27:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0046,2023-01-01 18:27:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0047,2023-01-01 07:44:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0047,2023-01-01 07:12:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0047,2023-01-01 08:24:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0047,2023-01-02 04:03:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0048,2023-01-01 05:06:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0048,2023-01-01 05:42:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0048,2023-01-01 18:38:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0048,2023-01-01 11:12:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0048,2023-01-02 00:45:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0049,2023-01-01 03:37:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0049,2023-01-01 20:39:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0049,2023-01-01 10:09:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0049,2023-01-01 14:24:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL
+VEH0042,2023-01-01 01:45:00,abs_fault_indicator,1.0,ABS Fault,CRITICAL

@@ -1,0 +1,8 @@
+parameter,anomaly_type,severity,anomaly_count
+abs_fault_indicator,ABS Fault,CRITICAL,237
+battery_voltage_v,Low Battery Voltage,HIGH,55
+brake_temp_c,High Brake Temperature,HIGH,26
+engine_temp_c,Engine Overheating,HIGH,25
+coolant_temp_c,High Coolant Temperature,HIGH,19
+engine_rpm,Excessive Engine RPM,HIGH,19
+vehicle_speed_kph,Excessive Vehicle Speed,HIGH,19

@@ -1,0 +1,253 @@
+2026-09-06 20:48:13,745 | INFO | Vehicle telemetry pipeline started.
+2026-09-06 20:48:13,745 | INFO | Testing logging functionality.
+2026-09-06 20:48:13,746 | WARNING | This is a test warning.
+2026-09-06 20:48:13,746 | INFO | Vehicle telemetry pipeline test completed.
+2026-09-06 21:02:06,978 | INFO | Dataset loaded: 1970 records, 41 columns
+2026-09-06 21:02:06,987 | INFO | Test data generation: missing values introduced into 5 columns
+2026-09-06 21:02:06,993 | INFO | Test data generation: 19 duplicate records added
+2026-09-06 21:02:06,996 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:02:06,997 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:02:06,997 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:02:07,088 | INFO | Test dataset saved: data\raw\vehicle_telemetry_test.csv with 1989 records
+2026-09-06 21:06:30,909 | INFO | Dataset loaded: 1970 records, 41 columns
+2026-09-06 21:06:30,913 | INFO | Test data generation: missing values introduced into 5 columns
+2026-09-06 21:06:30,917 | INFO | Test data generation: 19 duplicate records added
+2026-09-06 21:06:30,919 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:06:30,922 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:06:30,923 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:06:30,990 | INFO | Test dataset saved: data\raw\vehicle_telemetry_test.csv with 1989 records
+2026-09-06 21:09:09,206 | INFO | Dataset loaded: 1970 records, 41 columns
+2026-09-06 21:09:09,209 | INFO | Test data generation: missing values introduced into 5 columns
+2026-09-06 21:09:09,210 | INFO | Test data generation: 19 duplicate records added
+2026-09-06 21:09:09,213 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:09:09,214 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:09:09,216 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:09:09,217 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:09:09,286 | INFO | Test dataset saved: data\raw\vehicle_telemetry_test.csv with 1989 records
+2026-09-06 21:18:18,814 | INFO | Transformation started: 1989 records loaded
+2026-09-06 21:18:18,823 | INFO | Transformation: 18 duplicate records removed
+2026-09-06 21:18:18,827 | INFO | Transformation: engine_temp_c - 20 missing values filled
+2026-09-06 21:18:18,828 | INFO | Transformation: engine_rpm - 19 missing values filled
+2026-09-06 21:18:18,828 | INFO | Transformation: coolant_temp_c - 19 missing values filled
+2026-09-06 21:18:18,829 | INFO | Transformation: battery_voltage_v - 19 missing values filled
+2026-09-06 21:18:18,829 | INFO | Transformation: vehicle_speed_kph - 19 missing values filled
+2026-09-06 21:18:18,905 | INFO | Processed dataset saved: data\processed\clean_vehicle_telemetry.csv | records=1971 | columns=45
+2026-09-06 21:24:24,180 | INFO | Anomaly detection started: 1971 records loaded
+2026-09-06 21:24:24,207 | INFO | Anomaly report saved: reports\anomaly_report.csv | anomalies=400
+2026-09-06 21:24:24,207 | INFO | Anomaly detection completed: 400 anomalies detected
+2026-09-06 21:34:24,867 | INFO | Anomaly summary started: 400 anomaly records loaded
+2026-09-06 21:34:24,873 | INFO | Anomaly summary saved: reports\anomaly_summary.csv | 7 anomaly categories
+2026-09-06 21:36:53,570 | INFO | Anomaly summary started: 400 anomaly records loaded
+2026-09-06 21:36:53,576 | INFO | Anomaly summary saved: reports\anomaly_summary.csv | 7 anomaly categories
+2026-09-06 21:40:06,539 | INFO | Dataset loaded: 1970 records, 41 columns
+2026-09-06 21:40:06,543 | INFO | Test data generation: missing values introduced into 5 columns
+2026-09-06 21:40:06,583 | INFO | Test data generation: 19 duplicate records added
+2026-09-06 21:40:06,616 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:40:06,623 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:40:06,625 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:40:06,628 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:40:06,715 | INFO | Test dataset saved: data\raw\vehicle_telemetry_test.csv with 1989 records
+2026-09-06 21:40:08,197 | INFO | Transformation started: 1989 records loaded
+2026-09-06 21:40:08,207 | INFO | Transformation: 18 duplicate records removed
+2026-09-06 21:40:08,211 | INFO | Transformation: engine_temp_c - 20 missing values filled
+2026-09-06 21:40:08,212 | INFO | Transformation: engine_rpm - 19 missing values filled
+2026-09-06 21:40:08,213 | INFO | Transformation: coolant_temp_c - 19 missing values filled
+2026-09-06 21:40:08,213 | INFO | Transformation: battery_voltage_v - 19 missing values filled
+2026-09-06 21:40:08,214 | INFO | Transformation: vehicle_speed_kph - 19 missing values filled
+2026-09-06 21:40:08,284 | INFO | Processed dataset saved: data\processed\clean_vehicle_telemetry.csv | records=1971 | columns=45
+2026-09-06 21:40:08,865 | INFO | Anomaly detection started: 1971 records loaded
+2026-09-06 21:40:08,889 | INFO | Anomaly report saved: reports\anomaly_report.csv | anomalies=400
+2026-09-06 21:40:08,890 | INFO | Anomaly detection completed: 400 anomalies detected
+2026-09-06 21:40:10,012 | INFO | Anomaly summary started: 400 anomaly records loaded
+2026-09-06 21:40:10,018 | INFO | Anomaly summary saved: reports\anomaly_summary.csv | 7 anomaly categories
+2026-09-06 21:41:32,348 | INFO | Complete vehicle telemetry pipeline started.
+2026-09-06 21:41:32,348 | INFO | Pipeline step started: src/generate_data.py
+2026-09-06 21:41:32,862 | INFO | Dataset loaded: 1970 records, 41 columns
+2026-09-06 21:41:32,866 | INFO | Test data generation: missing values introduced into 5 columns
+2026-09-06 21:41:32,868 | INFO | Test data generation: 19 duplicate records added
+2026-09-06 21:41:32,870 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:41:32,870 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:41:32,871 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:41:32,872 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:41:32,945 | INFO | Test dataset saved: data\raw\vehicle_telemetry_test.csv with 1989 records
+2026-09-06 21:41:33,020 | INFO | Pipeline step completed: src/generate_data.py
+2026-09-06 21:41:33,020 | INFO | Pipeline step started: src/validate.py
+2026-09-06 21:41:33,613 | INFO | Pipeline step completed: src/validate.py
+2026-09-06 21:41:33,613 | INFO | Pipeline step started: src/transform.py
+2026-09-06 21:41:34,111 | INFO | Transformation started: 1989 records loaded
+2026-09-06 21:41:34,120 | INFO | Transformation: 18 duplicate records removed
+2026-09-06 21:41:34,124 | INFO | Transformation: engine_temp_c - 20 missing values filled
+2026-09-06 21:41:34,125 | INFO | Transformation: engine_rpm - 19 missing values filled
+2026-09-06 21:41:34,125 | INFO | Transformation: coolant_temp_c - 19 missing values filled
+2026-09-06 21:41:34,126 | INFO | Transformation: battery_voltage_v - 19 missing values filled
+2026-09-06 21:41:34,127 | INFO | Transformation: vehicle_speed_kph - 19 missing values filled
+2026-09-06 21:41:34,199 | INFO | Processed dataset saved: data\processed\clean_vehicle_telemetry.csv | records=1971 | columns=45
+2026-09-06 21:41:34,261 | INFO | Pipeline step completed: src/transform.py
+2026-09-06 21:41:34,261 | INFO | Pipeline step started: src/anomaly_detection.py
+2026-09-06 21:41:34,770 | INFO | Anomaly detection started: 1971 records loaded
+2026-09-06 21:41:34,795 | INFO | Anomaly report saved: reports\anomaly_report.csv | anomalies=400
+2026-09-06 21:41:34,795 | INFO | Anomaly detection completed: 400 anomalies detected
+2026-09-06 21:41:34,860 | INFO | Pipeline step completed: src/anomaly_detection.py
+2026-09-06 21:41:34,861 | INFO | Pipeline step started: src/analyze_anomalies.py
+2026-09-06 21:41:35,525 | INFO | Pipeline step completed: src/analyze_anomalies.py
+2026-09-06 21:41:35,525 | INFO | Pipeline step started: src/create_anomaly_summary.py
+2026-09-06 21:41:36,015 | INFO | Anomaly summary started: 400 anomaly records loaded
+2026-09-06 21:41:36,021 | INFO | Anomaly summary saved: reports\anomaly_summary.csv | 7 anomaly categories
+2026-09-06 21:41:36,087 | INFO | Pipeline step completed: src/create_anomaly_summary.py
+2026-09-06 21:41:36,087 | INFO | Complete vehicle telemetry pipeline completed successfully.
+2026-09-06 21:43:33,007 | INFO | Complete vehicle telemetry pipeline started.
+2026-09-06 21:43:33,007 | INFO | Pipeline step started: src/generate_data.py
+2026-09-06 21:43:33,525 | INFO | Dataset loaded: 1970 records, 41 columns
+2026-09-06 21:43:33,528 | INFO | Test data generation: missing values introduced into 5 columns
+2026-09-06 21:43:33,530 | INFO | Test data generation: 19 duplicate records added
+2026-09-06 21:43:33,531 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:43:33,532 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:43:33,533 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:43:33,535 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:43:33,601 | INFO | Test dataset saved: data\raw\vehicle_telemetry_test.csv with 1989 records
+2026-09-06 21:43:33,661 | INFO | Pipeline step completed: src/generate_data.py
+2026-09-06 21:43:33,661 | INFO | Pipeline step started: src/validate.py
+2026-09-06 21:43:34,251 | INFO | Pipeline step completed: src/validate.py
+2026-09-06 21:43:34,251 | INFO | Pipeline step started: src/transform.py
+2026-09-06 21:43:34,764 | INFO | Transformation started: 1989 records loaded
+2026-09-06 21:43:34,842 | INFO | Transformation: 18 duplicate records removed
+2026-09-06 21:43:34,849 | INFO | Transformation: engine_temp_c - 20 missing values filled
+2026-09-06 21:43:34,850 | INFO | Transformation: engine_rpm - 19 missing values filled
+2026-09-06 21:43:34,858 | INFO | Transformation: coolant_temp_c - 19 missing values filled
+2026-09-06 21:43:34,859 | INFO | Transformation: battery_voltage_v - 19 missing values filled
+2026-09-06 21:43:34,860 | INFO | Transformation: vehicle_speed_kph - 19 missing values filled
+2026-09-06 21:43:34,933 | INFO | Processed dataset saved: data\processed\clean_vehicle_telemetry.csv | records=1971 | columns=45
+2026-09-06 21:43:34,993 | INFO | Pipeline step completed: src/transform.py
+2026-09-06 21:43:34,993 | INFO | Pipeline step started: src/anomaly_detection.py
+2026-09-06 21:43:35,500 | INFO | Anomaly detection started: 1971 records loaded
+2026-09-06 21:43:35,524 | INFO | Anomaly report saved: reports\anomaly_report.csv | anomalies=400
+2026-09-06 21:43:35,524 | INFO | Anomaly detection completed: 400 anomalies detected
+2026-09-06 21:43:35,586 | INFO | Pipeline step completed: src/anomaly_detection.py
+2026-09-06 21:43:35,586 | INFO | Pipeline step started: src/analyze_anomalies.py
+2026-09-06 21:43:36,161 | INFO | Pipeline step completed: src/analyze_anomalies.py
+2026-09-06 21:43:36,161 | INFO | Pipeline step started: src/create_anomaly_summary.py
+2026-09-06 21:43:36,672 | INFO | Anomaly summary started: 400 anomaly records loaded
+2026-09-06 21:43:36,677 | INFO | Anomaly summary saved: reports\anomaly_summary.csv | 7 anomaly categories
+2026-09-06 21:43:36,742 | INFO | Pipeline step completed: src/create_anomaly_summary.py
+2026-09-06 21:43:36,742 | INFO | Complete vehicle telemetry pipeline completed successfully.
+2026-09-06 21:47:10,990 | INFO | Complete vehicle telemetry pipeline started.
+2026-09-06 21:47:10,990 | INFO | Pipeline step started: src/generate_data.py
+2026-09-06 21:47:11,522 | INFO | Dataset loaded: 1970 records, 41 columns
+2026-09-06 21:47:11,526 | INFO | Test data generation: missing values introduced into 5 columns
+2026-09-06 21:47:11,529 | INFO | Test data generation: 19 duplicate records added
+2026-09-06 21:47:11,533 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:47:11,534 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:47:11,535 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:47:11,535 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 21:47:11,631 | INFO | Test dataset saved: data\raw\vehicle_telemetry_test.csv with 1989 records
+2026-09-06 21:47:11,691 | INFO | Pipeline step completed: src/generate_data.py
+2026-09-06 21:47:11,691 | INFO | Pipeline step started: src/validate.py
+2026-09-06 21:47:12,599 | INFO | Pipeline step completed: src/validate.py
+2026-09-06 21:47:12,599 | INFO | Pipeline step started: src/transform.py
+2026-09-06 21:47:13,120 | INFO | Transformation started: 1989 records loaded
+2026-09-06 21:47:13,131 | INFO | Transformation: 18 duplicate records removed
+2026-09-06 21:47:13,135 | INFO | Transformation: engine_temp_c - 20 missing values filled
+2026-09-06 21:47:13,136 | INFO | Transformation: engine_rpm - 19 missing values filled
+2026-09-06 21:47:13,136 | INFO | Transformation: coolant_temp_c - 19 missing values filled
+2026-09-06 21:47:13,137 | INFO | Transformation: battery_voltage_v - 19 missing values filled
+2026-09-06 21:47:13,138 | INFO | Transformation: vehicle_speed_kph - 19 missing values filled
+2026-09-06 21:47:13,210 | INFO | Processed dataset saved: data\processed\clean_vehicle_telemetry.csv | records=1971 | columns=45
+2026-09-06 21:47:13,272 | INFO | Pipeline step completed: src/transform.py
+2026-09-06 21:47:13,272 | INFO | Pipeline step started: src/anomaly_detection.py
+2026-09-06 21:47:13,798 | INFO | Anomaly detection started: 1971 records loaded
+2026-09-06 21:47:13,824 | INFO | Anomaly report saved: reports\anomaly_report.csv | anomalies=400
+2026-09-06 21:47:13,825 | INFO | Anomaly detection completed: 400 anomalies detected
+2026-09-06 21:47:13,886 | INFO | Pipeline step completed: src/anomaly_detection.py
+2026-09-06 21:47:13,886 | INFO | Pipeline step started: src/analyze_anomalies.py
+2026-09-06 21:47:14,473 | INFO | Pipeline step completed: src/analyze_anomalies.py
+2026-09-06 21:47:14,474 | INFO | Pipeline step started: src/create_anomaly_summary.py
+2026-09-06 21:47:14,964 | INFO | Anomaly summary started: 400 anomaly records loaded
+2026-09-06 21:47:14,969 | INFO | Anomaly summary saved: reports\anomaly_summary.csv | 7 anomaly categories
+2026-09-06 21:47:15,039 | INFO | Pipeline step completed: src/create_anomaly_summary.py
+2026-09-06 21:47:15,039 | INFO | Complete vehicle telemetry pipeline completed successfully.
+2026-09-06 21:50:36,317 | INFO | Vehicle telemetry pipeline started.
+2026-09-06 21:50:36,318 | INFO | Testing logging functionality.
+2026-09-06 21:50:36,318 | WARNING | This is a test warning.
+2026-09-06 21:50:36,318 | INFO | Vehicle telemetry pipeline test completed.
+2026-09-06 21:52:58,954 | INFO | Vehicle telemetry pipeline started.
+2026-09-06 21:52:58,954 | INFO | Testing logging functionality.
+2026-09-06 21:52:58,954 | WARNING | This is a test warning.
+2026-09-06 21:52:58,954 | INFO | Vehicle telemetry pipeline test completed.
+2026-09-06 21:54:29,815 | INFO | Vehicle telemetry pipeline started.
+2026-09-06 21:54:29,815 | INFO | Testing logging functionality.
+2026-09-06 21:54:29,815 | WARNING | This is a test warning.
+2026-09-06 21:54:29,815 | INFO | Vehicle telemetry pipeline test completed.
+2026-09-06 22:10:26,240 | INFO | Dataset loaded: 1970 records, 41 columns
+2026-09-06 22:10:26,243 | INFO | Test data generation: missing values introduced into 5 columns
+2026-09-06 22:10:26,246 | INFO | Test data generation: 19 duplicate records added
+2026-09-06 22:10:26,248 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 22:10:26,249 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 22:10:26,250 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 22:10:26,250 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 22:10:26,323 | INFO | Test dataset saved: D:\vehicle-telemetry-pipeline\data\raw\vehicle_telemetry_test.csv with 1989 records
+2026-09-06 22:16:24,059 | INFO | Transformation started: 1989 records loaded
+2026-09-06 22:16:24,072 | INFO | Transformation: 18 duplicate records removed
+2026-09-06 22:16:24,076 | INFO | Transformation: engine_temp_c - 20 missing values filled
+2026-09-06 22:16:24,077 | INFO | Transformation: engine_rpm - 19 missing values filled
+2026-09-06 22:16:24,077 | INFO | Transformation: coolant_temp_c - 19 missing values filled
+2026-09-06 22:16:24,078 | INFO | Transformation: battery_voltage_v - 19 missing values filled
+2026-09-06 22:16:24,079 | INFO | Transformation: vehicle_speed_kph - 19 missing values filled
+2026-09-06 22:16:24,154 | INFO | Processed dataset saved: D:\vehicle-telemetry-pipeline\data\processed\clean_vehicle_telemetry.csv | records=1971 | columns=45
+2026-09-06 22:18:06,563 | INFO | Anomaly detection started: 1971 records loaded
+2026-09-06 22:18:06,601 | INFO | Anomaly report saved: D:\vehicle-telemetry-pipeline\reports\anomaly_report.csv | anomalies=400
+2026-09-06 22:18:06,601 | INFO | Anomaly detection completed: 400 anomalies detected
+2026-09-06 22:23:29,140 | INFO | Anomaly summary started: 400 anomaly records loaded
+2026-09-06 22:23:29,147 | INFO | Anomaly summary saved: D:\vehicle-telemetry-pipeline\reports\anomaly_summary.csv | 7 anomaly categories
+2026-09-06 22:25:52,106 | INFO | Vehicle telemetry pipeline started.
+2026-09-06 22:25:52,106 | INFO | Testing logging functionality.
+2026-09-06 22:25:52,106 | WARNING | This is a test warning.
+2026-09-06 22:25:52,106 | INFO | Vehicle telemetry pipeline test completed.
+2026-09-06 22:26:06,982 | INFO | Vehicle telemetry pipeline started.
+2026-09-06 22:26:06,982 | INFO | Testing logging functionality.
+2026-09-06 22:26:06,982 | WARNING | This is a test warning.
+2026-09-06 22:26:06,982 | INFO | Vehicle telemetry pipeline test completed.
+2026-09-06 22:32:01,889 | INFO | Complete vehicle telemetry pipeline started.
+2026-09-06 22:32:01,889 | INFO | Pipeline step started: src/generate_data.py
+2026-09-06 22:32:02,615 | ERROR | Pipeline step failed: src/generate_data.py | Return code: 1
+2026-09-06 22:34:58,943 | INFO | Complete vehicle telemetry pipeline started.
+2026-09-06 22:34:58,943 | INFO | Pipeline step started: src/generate_data.py
+2026-09-06 22:34:59,529 | ERROR | Pipeline step failed: src/generate_data.py | Return code: 1
+2026-09-06 22:38:00,460 | INFO | Complete vehicle telemetry pipeline started.
+2026-09-06 22:38:00,461 | INFO | Pipeline step started: src/generate_data.py
+2026-09-06 22:38:00,989 | INFO | Dataset loaded: 1970 records, 41 columns
+2026-09-06 22:38:00,992 | INFO | Test data generation: missing values introduced into 5 columns
+2026-09-06 22:38:00,995 | INFO | Test data generation: 19 duplicate records added
+2026-09-06 22:38:00,997 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 22:38:01,001 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 22:38:01,002 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 22:38:01,003 | INFO | Test data generation: 19 engine anomalies added
+2026-09-06 22:38:01,075 | INFO | Test dataset saved: D:\vehicle-telemetry-pipeline\data\raw\vehicle_telemetry_test.csv with 1989 records
+2026-09-06 22:38:01,136 | INFO | Pipeline step completed: src/generate_data.py
+2026-09-06 22:38:01,136 | INFO | Pipeline step started: src/validate.py
+2026-09-06 22:38:02,173 | INFO | Pipeline step completed: src/validate.py
+2026-09-06 22:38:02,173 | INFO | Pipeline step started: src/transform.py
+2026-09-06 22:38:02,693 | INFO | Transformation started: 1989 records loaded
+2026-09-06 22:38:02,703 | INFO | Transformation: 18 duplicate records removed
+2026-09-06 22:38:02,707 | INFO | Transformation: engine_temp_c - 20 missing values filled
+2026-09-06 22:38:02,708 | INFO | Transformation: engine_rpm - 19 missing values filled
+2026-09-06 22:38:02,708 | INFO | Transformation: coolant_temp_c - 19 missing values filled
+2026-09-06 22:38:02,709 | INFO | Transformation: battery_voltage_v - 19 missing values filled
+2026-09-06 22:38:02,709 | INFO | Transformation: vehicle_speed_kph - 19 missing values filled
+2026-09-06 22:38:02,781 | INFO | Processed dataset saved: D:\vehicle-telemetry-pipeline\data\processed\clean_vehicle_telemetry.csv | records=1971 | columns=45
+2026-09-06 22:38:02,843 | INFO | Pipeline step completed: src/transform.py
+2026-09-06 22:38:02,843 | INFO | Pipeline step started: src/anomaly_detection.py
+2026-09-06 22:38:03,366 | INFO | Anomaly detection started: 1971 records loaded
+2026-09-06 22:38:03,392 | INFO | Anomaly report saved: D:\vehicle-telemetry-pipeline\reports\anomaly_report.csv | anomalies=400
+2026-09-06 22:38:03,392 | INFO | Anomaly detection completed: 400 anomalies detected
+2026-09-06 22:38:03,463 | INFO | Pipeline step completed: src/anomaly_detection.py
+2026-09-06 22:38:03,463 | INFO | Pipeline step started: src/analyze_anomalies.py
+2026-09-06 22:38:04,331 | INFO | Pipeline step completed: src/analyze_anomalies.py
+2026-09-06 22:38:04,331 | INFO | Pipeline step started: src/create_anomaly_summary.py
+2026-09-06 22:38:04,830 | INFO | Anomaly summary started: 400 anomaly records loaded
+2026-09-06 22:38:04,835 | INFO | Anomaly summary saved: D:\vehicle-telemetry-pipeline\reports\anomaly_summary.csv | 7 anomaly categories
+2026-09-06 22:38:04,906 | INFO | Pipeline step completed: src/create_anomaly_summary.py
+2026-09-06 22:38:04,907 | INFO | Complete vehicle telemetry pipeline completed successfully.
+2026-09-06 22:40:04,860 | INFO | Vehicle telemetry pipeline started.
+2026-09-06 22:40:04,860 | INFO | Testing logging functionality.
+2026-09-06 22:40:04,860 | WARNING | This is a test warning.
+2026-09-06 22:40:04,860 | INFO | Vehicle telemetry pipeline test completed.

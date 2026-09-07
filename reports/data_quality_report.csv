@@ -1,0 +1,59 @@
+check,column,issue,status
+Required Column,vehicle_id,None,PASS
+Required Column,timestamp,None,PASS
+Required Column,engine_temp_c,None,PASS
+Required Column,engine_rpm,None,PASS
+Required Column,coolant_temp_c,None,PASS
+Required Column,battery_voltage_v,None,PASS
+Required Column,vehicle_speed_kph,None,PASS
+Missing Values,vehicle_id,None,PASS
+Missing Values,brand,None,PASS
+Missing Values,timestamp,None,PASS
+Missing Values,odometer_reading,None,PASS
+Missing Values,engine_temp_c,38 missing values,FAIL
+Missing Values,engine_rpm,19 missing values,FAIL
+Missing Values,oil_pressure_psi,None,PASS
+Missing Values,coolant_temp_c,19 missing values,FAIL
+Missing Values,fuel_level_percent,None,PASS
+Missing Values,fuel_consumption_lph,None,PASS
+Missing Values,engine_load_percent,None,PASS
+Missing Values,throttle_pos_percent,None,PASS
+Missing Values,air_flow_rate_gps,None,PASS
+Missing Values,exhaust_gas_temp_c,None,PASS
+Missing Values,vibration_level,None,PASS
+Missing Values,engine_hours,None,PASS
+Missing Values,brake_fluid_level_psi,None,PASS
+Missing Values,brake_pad_wear_mm,None,PASS
+Missing Values,brake_temp_c,None,PASS
+Missing Values,abs_fault_indicator,None,PASS
+Missing Values,brake_pedal_pos_percent,None,PASS
+Missing Values,wheel_speed_fl_kph,None,PASS
+Missing Values,wheel_speed_fr_kph,None,PASS
+Missing Values,wheel_speed_rl_kph,None,PASS
+Missing Values,wheel_speed_rr_kph,None,PASS
+Missing Values,battery_voltage_v,19 missing values,FAIL
+Missing Values,battery_current_a,None,PASS
+Missing Values,battery_temp_c,None,PASS
+Missing Values,alternator_output_v,None,PASS
+Missing Values,battery_charge_percent,None,PASS
+Missing Values,battery_health_percent,None,PASS
+Missing Values,vehicle_speed_kph,19 missing values,FAIL
+Missing Values,ambient_temp_c,None,PASS
+Missing Values,humidity_percent,None,PASS
+Missing Values,gps_latitude,None,PASS
+Missing Values,gps_longitude,None,PASS
+Missing Values,engine_failure_imminent,None,PASS
+Missing Values,brake_issue_imminent,None,PASS
+Missing Values,battery_issue_imminent,None,PASS
+Missing Values,failure_date,None,PASS
+Missing Values,failure_type,None,PASS
+Duplicate Records,ALL,18 duplicate records,FAIL
+Negative Values,engine_rpm,None,PASS
+Negative Values,engine_temp_c,None,PASS
+Negative Values,coolant_temp_c,None,PASS
+Negative Values,battery_voltage_v,None,PASS
+Negative Values,vehicle_speed_kph,None,PASS
+Vehicle Speed,vehicle_speed_kph,19 readings above 180 km/h,WARNING
+Engine RPM,engine_rpm,19 readings above 6000 RPM,WARNING
+Engine Temperature,engine_temp_c,25 readings above 110°C,WARNING
+Battery Voltage,battery_voltage_v,55 readings below 11.5V,WARNING
